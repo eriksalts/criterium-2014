@@ -1,0 +1,100 @@
+/*Generics*/
+body{
+	background-color: #FFF119;
+}
+/*===================================================================================*/
+/*NAVIGATION*/
+
+/*===================================================================================*/
+/*FRONT PAGE*/
+/*Jumbotron*/
+.top-bg{
+
+	margin: 63px 42px 0 42px;
+}
+.logo img{
+	top:0;
+    
+    position: absolute;
+	margin: auto;
+	top: 0;
+    left: 0;
+    right: 0;
+   bottom: 51;
+}
+.jumbo img{
+	
+    
+    position: absolute;
+	margin: auto;
+	margin-top: 245px;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 50;
+}
+.jumbo-text img{
+	
+	position: absolute;
+	margin: auto;
+	margin-top: 680px;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*Main Content*/
+.content{
+	margin: 0 42px 0 42px;
+}
+.race-info-text img,
+.content-text img,
+.border img,
+.register img,
+.route img,
+.schedule img,
+.gallery img{
+	position: absolute;
+	margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.race-info-text img{
+	margin-top: 870px;
+}
+.content-text img{
+	margin-top: 1025px;
+}
+.border img{
+	margin-top: 1200px;
+}
+.register img{
+	margin-top: 1250px;
+	margin-left: 450px;
+}
+.route img{
+	margin-top: 1253px;
+	margin-left: 570px;
+}
+.schedule img{
+	margin-top: 1245px;
+	margin-left: 700px;
+}
+.gallery img{
+	margin-top: 1255px;
+	margin-left: 810px;
+}
+/*===================================================================================*/
+/*ABOUT US*/
+h1{
+	text-align: center;
+}
+.about-p{
+	font-size: 18px;
+	
+	padding:10px 100px 10px 100px;
+}
