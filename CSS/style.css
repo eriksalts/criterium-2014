@@ -66,27 +66,57 @@ body{
 /*===================================================================================*/
 /*NAVIGATION*/
 .nav{
-	margin:auto;
-	margin-top: 60px;
+	margin-left: 150px;
+	margin-top: 100px;
 	
-	margin-bottom: 80px;
+	margin-bottom: 100px;
 }
 .register img,
 .route img,
 .schedule img,
 .gallery img{
-	padding:10px;
+	padding:30px !important;
 
 }
 
 
 /*===================================================================================*/
-/*ABOUT US*/
-h1{
+/*SCHEDULE*/
+.table{
+	font-size: 24px;
 	text-align: center;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 150px;
+	border: none !important;
 }
-.about-p{
-	font-size: 18px;
-	
-	padding:10px 100px 10px 100px;
+
+.title{
+	text-align: center;
+	border-top: none !important;
+	border-bottom: black 4px solid;
+}
+td{
+	border: none !important;
+
+}
+/*===================================================================================*/
+/*ROUTE*/
+.route-image{
+	background-image: url('../Images/route.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	margin-bottom:150px; 
+	margin-top: 80px;
+}
+#route-title{
+	text-align: center;
+	border-bottom: black 4px solid;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+#route-p{
+	font-size: 24px;
+	margin: 0 60px 20px 60px;
 }
