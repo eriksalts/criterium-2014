@@ -2,92 +2,84 @@
 body{
 	background-color: #FFF119;
 }
-/*===================================================================================*/
-/*NAVIGATION*/
+@media (max-width: 767px){
+	body{
+		background-color:black;
+	}
+	.top-bg{
+		margin:0 !important;
+	}
+	.content{
+		margin: 0 !important;
+	}
+	p{
+		padding: 10px;
+	}
+}
 
 /*===================================================================================*/
 /*FRONT PAGE*/
 /*Jumbotron*/
 .top-bg{
-
+	background-image: url('../Images/asphalt-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 63px 42px 0 42px;
+	
 }
 .logo img{
-	top:0;
-    
-    position: absolute;
 	margin: auto;
-	top: 0;
-    left: 0;
-    right: 0;
-   bottom: 51;
 }
 .jumbo img{
-	
-    
-    position: absolute;
 	margin: auto;
-	margin-top: 245px;
-	top: 0;
-    left: 0;
-    right: 0;
-    bottom: 50;
+	margin-top: 35px;
 }
 .jumbo-text img{
-	
-	position: absolute;
 	margin: auto;
-	margin-top: 680px;
-	top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+	margin-top: 30px;
+	padding-bottom: 30px;
 }
 
 
 /*Main Content*/
 .content{
+	background-image: url('../Images/raceinfo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 0 42px 0 42px;
 }
-.race-info-text img,
-.content-text img,
-.border img,
+.race-info-text img{
+	
+	margin: auto;
+	margin-top: 30px;
+}
+.content-text img{
+	
+	margin: auto;
+	margin-top: 45px;;
+    }
+.border img{
+	
+	margin: auto;
+	margin-top: 30px;
+}
+/*===================================================================================*/
+/*NAVIGATION*/
+.nav{
+	margin:auto;
+	margin-top: 60px;
+	
+	margin-bottom: 80px;
+}
 .register img,
 .route img,
 .schedule img,
 .gallery img{
-	position: absolute;
-	margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+	padding:10px;
+
 }
-.race-info-text img{
-	margin-top: 870px;
-}
-.content-text img{
-	margin-top: 1025px;
-}
-.border img{
-	margin-top: 1200px;
-}
-.register img{
-	margin-top: 1250px;
-	margin-left: 450px;
-}
-.route img{
-	margin-top: 1253px;
-	margin-left: 570px;
-}
-.schedule img{
-	margin-top: 1245px;
-	margin-left: 700px;
-}
-.gallery img{
-	margin-top: 1255px;
-	margin-left: 810px;
-}
+
+
 /*===================================================================================*/
 /*ABOUT US*/
 h1{
