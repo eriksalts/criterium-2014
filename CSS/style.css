@@ -29,7 +29,13 @@ body{
 p, h1, h2, h3, h4, h5, h6, span {
 	font-family: "myriad-pro",sans-serif;
 }
-
+.panel{
+	background-color: rgba(0,0,0,0.4);
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding:30px;
+}
 /*===================================================================================*/
 /*FRONT PAGE*/
 /*Jumbotron*/
@@ -66,15 +72,24 @@ p, h1, h2, h3, h4, h5, h6, span {
 	padding-bottom: 30px;
 }
 #carousel-wrapper{
-	margin: 100px 42px 0 42px !important;
+	background-image: url('../images/asphalt-bg.jpg');
+	background-repeat: none;
+	background-size: cover;
+	padding-top:80px;
+	padding-bottom:20px;
+	margin: 60px 0 0 0 !important;
 }
 /*CAROUSEL*/
 #carousel-slider{
-	max-width:1264px;
+	max-width: 940px;
+	max-height: 340px;
+	margin: auto;
 }
 
 .callout {
 	text-align: center;
+	margin: 30px 50px 30px 50px;
+	color: #FFF042;
 }
 
 .callout h1 {
@@ -88,7 +103,7 @@ p, h1, h2, h3, h4, h5, h6, span {
 
 /*Main Content*/
 .content{
-
+	margin-top: 600px;
 }
 .race-info-text img{
 
@@ -156,6 +171,12 @@ p, h1, h2, h3, h4, h5, h6, span {
 .sprite.sponsors { background-position: -369px 0px; width: 78px; height: 65px; }
 
 /*===================================================================================*/
+/*RACE INFO*/
+.race-info-text{
+	margin-bottom: 30px;
+}
+
+/*====================================================================================*/
 /*SCHEDULE*/
 .table{
 	font-size: 24px;
