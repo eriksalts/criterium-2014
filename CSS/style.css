@@ -71,6 +71,7 @@ p, h1, h2, h3, h4, h5, h6, span {
 /*CAROUSEL*/
 #carousel-slider{
 	max-width:1264px;
+}
 
 .callout {
 	text-align: center;
@@ -85,7 +86,6 @@ p, h1, h2, h3, h4, h5, h6, span {
 }
 
 
-}
 /*Main Content*/
 .content{
 	background-image: url('../images/raceinfo.jpg');
