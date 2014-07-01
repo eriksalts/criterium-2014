@@ -103,7 +103,7 @@ p, h1, h2, h3, h4, h5, h6, span {
 
 /*Main Content*/
 .content{
-	margin-top: 600px;
+	padding-top: 600px;
 }
 .race-info-text img{
 
