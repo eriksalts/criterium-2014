@@ -65,16 +65,15 @@
 				<h2 class>The region's most entertaining and high-speed weekend returns to Downtown Edwardsville</h2>
 			</div>
 		</div>
-
-		<div class="navbar-header">
-	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	    </div>
-		<div class="container">
+		<nav class="navbar navbar-default navbar-static-top" role="navigation" id="nav">
+			<div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
       		<div class="navbar-collapse collapse">
     			<nav role="navigation">
                  	<ul class="menu nav nav-pills nav-justified">
@@ -105,48 +104,18 @@
 					</ul>
 				</nav>
   			</div>
-  		</div>
-  		</div>
+  		</nav>
 
-<!-- =================================================================== -->
-		<!-- NAVIGATION -->
-		<div class="container">
-<!-- 				<div class="row nav">
-					<div class="col-xs-3 hidden-xs register">
-						<a href="https://www.bikereg.com/20013"><img class="img-responsive nav-pic" src="images/Register.png"></a>
-					</div>
-					<div class="col-xs-3 hidden-xs route">
-						<a href="About.html"><img class="img-responsive nav-pic" src="images/Route.png"></a>
-					</div>
-					<div class="col-xs-3 hidden-xs schedule">
-						<a href="Schedule.html"><img class="img-responsive nav-pic" src="images/schedule.png"></a>
-					</div>
-					<div class="col-xs-3 hidden-xs gallery">
-						<a href="#"><img class="img-responsive nav-pic" src="images/Gallery.png"></a>
-					</div>
-				</div> -->
-				<!-- MOBILE NAV  -->
-<!-- 				<div class="row mobile-nav-wrapper">
-					<div class="col-xs-12 visible-xs mobile-nav">
-						<ul>
-							<li>
-								<a href="#"><h3>Register</h3></a>
-							</li>
-							<li>
-								<a href="#"><h3>Route</h3></a>
-							</li>
-							<li>
-								<a href="#"><h3>Schedule</h3></a>
-							</li>
-							<li>
-								<a href="#"><h3>Gallery</h3></a>
-							</li>
-						</ul>
-					</div>
-				</div> -->
-				<!-- END MOBILE NAV -->
-			<!-- ================================================================= -->
 	<!-- BEGIN MAIN CONTENT -->
+		<div class="container video-section" >
+<!-- 			<a id="bgndVideo" class="player" data-property="{videoURL:'http://www.youtube.com/watch?v=CG2Ys8t8Kh4',containment:'body', quality:'hd720', autoPlay:true, mute:true, opacity:1, loop:true}">bg</a> -->
+<div class="row">
+<div class="col-md-12">
+			<div id="P1" class="player" style="display:block; margin: auto; height: 500px; background: rgba(0,0,0,0.5)" data-property="{videoURL:'http://www.youtube.com/watch?v=CG2Ys8t8Kh4',containment:'self', quality:'hd720', autoPlay:true, mute:true, opacity:1, loop:true}"></div>
+			</div></div>
+
+<!-- 			<div id="video" style="height: 500px; width: 500px;"></div>
+			<div id="P1" class="player" style="display:block; height:500px; margin: auto; background: rgba(0,0,0,0.5)" data-property="{videoURL:'http://www.youtube.com/watch?v=CG2Ys8t8Kh4',containment:'#video', mute:true, opacity:1, loop:true}"></div> -->
 			<!-- RACE INFO BEGIN -->
 			<div class="row content">
 				<div class="col-lg-12">
@@ -225,6 +194,7 @@
      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- OTHER SCRIPTS-->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.js"></script>
     <script src="js/scripts.js"></script>
 	</body>
 </html>

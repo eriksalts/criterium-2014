@@ -1,6 +1,6 @@
 /*Generics*/
 body{
-	background-color: #FFF119;
+	background-color: #FFF042;
 }
 @media (max-width: 767px){
 	body{
@@ -88,10 +88,7 @@ p, h1, h2, h3, h4, h5, h6, span {
 
 /*Main Content*/
 .content{
-	background-image: url('../images/raceinfo.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: 0 42px 0 42px;
+
 }
 .race-info-text img{
 
@@ -126,13 +123,24 @@ p, h1, h2, h3, h4, h5, h6, span {
 	max-width:30px ;
 }*/
 
-nav .sprite {
+.navbar {
+	background-color: #FFF042;
+	border-bottom: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.navbar .sprite {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 5px;
 }
 
-nav p {
+#navbar a {
+	padding: 0px;
+}
+
+.navbar p {
 	font-weight: 300;
 	text-transform: uppercase;
 	margin-bottom: 0px;
