@@ -30,7 +30,8 @@ p, h1, h2, h3, h4, h5, h6, span {
 	font-family: "myriad-pro",sans-serif;
 }
 .vid-background{
-	background:top-center fixed;
+	background-attachment:fixed;
+	background-position: center;
 }
 .icon-background{
 	margin: auto;
