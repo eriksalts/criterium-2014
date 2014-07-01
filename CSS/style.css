@@ -1,4 +1,4 @@
-/*Generics*/
+/*GENERICS*/
 body{
 	background-color: #FFF042;
 }
@@ -30,7 +30,7 @@ p, h1, h2, h3, h4, h5, h6, span {
 	font-family: "myriad-pro",sans-serif;
 }
 .vid-background{
-	background:fixed;
+	background:top-center fixed;
 }
 .icon-background{
 	margin: auto;
