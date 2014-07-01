@@ -24,20 +24,12 @@ if($('body').hasClass('navbar-is-static-top')){
         $filter.before($filterSpacer);
         $filter.addClass("navbar-fixed-top");
         $filter.removeClass("navbar-static-top");
-        $('.video-section').css({
-            position: 'fixed',
-            top: '0',
-            left: '0'
-        });
       }
       else if ($filter.hasClass('navbar-fixed-top')  && $(window).scrollTop() < $filterSpacer.offset().top)
       {
         $filter.addClass("navbar-static-top");
         $filter.removeClass("navbar-fixed-top");
         $filterSpacer.remove();
-        $('.video-section').css({
-            position: 'static'
-        });
       }
     });
   }
