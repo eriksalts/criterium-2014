@@ -26,6 +26,10 @@ body{
 	}
 }
 
+p, h1, h2, h3, h4, h5, h6, span {
+	font-family: "myriad-pro",sans-serif;
+}
+
 /*===================================================================================*/
 /*FRONT PAGE*/
 /*Jumbotron*/
@@ -54,7 +58,6 @@ body{
 }
 
 .callout h1 {
-	font-family: "myriad-pro",sans-serif;
 	font-weight: 600;
 }
 
@@ -102,6 +105,11 @@ body{
 .nav-pic img{
 	max-height:30px ;
 	max-width:30px ;
+}
+
+nav p {
+	font-weight: 300;
+	text-transform: uppercase;
 }
 
 /*SPRITES*/
