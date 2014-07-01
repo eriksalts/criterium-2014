@@ -29,12 +29,10 @@ body{
 p, h1, h2, h3, h4, h5, h6, span {
 	font-family: "myriad-pro",sans-serif;
 }
-#P1{
-	max-height: 700px !important;
-	max-width: 100% !important;
-	background-attachment:fixed !important;
-	background-position: center !important;
-	position: fixed;
+p{
+	font-size: 18px;
+	color: #FFF042;
+	letter-spacing: 1.2px;
 }
 .icon-background{
 	margin: auto;
@@ -45,7 +43,7 @@ p, h1, h2, h3, h4, h5, h6, span {
 	border: solid 4px black;
 }
 .panel{
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.6);
 	text-align: center;
 	margin-left: 100px;
 	margin-right: 100px;
@@ -134,16 +132,17 @@ p, h1, h2, h3, h4, h5, h6, span {
 	font-weight: 300;
 	text-transform: uppercase;
 	margin-bottom: 0px;
+	color:#6E6E6E;
 }
 /*==================================================================================*/
 /*SPRITES*/
 .sprite { background: url('../images/icon-sprite.png') no-repeat top left; }
-.sprite.gallery { background-position: 0px 0px; width: 86px; height: 55px; }
-.sprite.race-info { background-position: -96px 0px; width: 52px; height: 61px; }
-.sprite.register { background-position: -158px 0px; width: 47px; height: 70px; }
-.sprite.route { background-position: -215px 0px; width: 73px; height: 68px; }
+.sprite.gallery { background-position: 0px 3px; width: 86px; height: 75px;}
+.sprite.race-info { background-position: -96px 3px; width: 52px; height: 75px;}
+.sprite.register { background-position: -158px 0px; width: 47px; height: 75px; }
+.sprite.route { background-position: -215px 2px; width: 73px; height: 75px; }
 .sprite.schedule { background-position: -298px 0px; width: 61px; height: 75px; }
-.sprite.sponsors { background-position: -369px 0px; width: 78px; height: 65px; }
+.sprite.sponsors { background-position: -369px -3px; width: 78px; height: 75px; }
 
 /*===================================================================================*/
 /*RACE INFO*/
@@ -155,7 +154,7 @@ p, h1, h2, h3, h4, h5, h6, span {
 	margin-top: 30px;
 }
 .content{
-	padding-top: 600px;
+	padding-top: 700px;/*Padding creates video viewing area*/
 }
 .content-text img{
 	margin: auto;
@@ -165,19 +164,19 @@ p, h1, h2, h3, h4, h5, h6, span {
 /*====================================================================================*/
 /*SCHEDULE*/
 .table{
-	font-size: 24px;
+	font-size: 18px;
 	text-align: center;
 	margin: auto;
-	margin-top: 40px;
-	margin-bottom: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	border: none !important;
+	color: #FFF042;
 }
-
-.title{
+/*.title{
 	text-align: center;
 	border-top: none !important;
 	border-bottom: black 4px solid;
-}
+}*/
 td{
 	border: none !important;
 
@@ -198,7 +197,8 @@ td{
 	margin-top: 80px;
 	margin-bottom: 40px;
 }
-#route-p{
-	font-size: 24px;
+#route,
+.table
+{
 	margin: 0 60px 20px 60px;
 }
