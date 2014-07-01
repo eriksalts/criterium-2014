@@ -34,10 +34,23 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 63px 42px 0 42px;
-	
+
 }
-.logo img{
-	margin: auto;
+#logo-wrapper{
+	position: relative;
+	height:40px;
+	max-width:100%;
+}
+.logo{
+	position: absolute;
+     top: 0;
+     right: 0;
+     bottom:30;
+     left: 0;
+     margin: auto;
+
+	z-index:1;
+ }
 }
 .jumbo img{
 	margin: auto;
@@ -48,6 +61,12 @@ body{
 	margin-top: 30px;
 	padding-bottom: 30px;
 }
+#carousel-wrapper{
+	margin: 100px 42px 0 42px !important;
+}
+/*CAROUSEL*/
+#carousel-slider{
+	max-width:1264px;
 
 .callout {
 	text-align: center;
@@ -63,6 +82,7 @@ body{
 }
 
 
+}
 /*Main Content*/
 .content{
 	background-image: url('../images/raceinfo.jpg');
@@ -71,17 +91,17 @@ body{
 	margin: 0 42px 0 42px;
 }
 .race-info-text img{
-	
+
 	margin: auto;
 	margin-top: 30px;
 }
 .content-text img{
-	
+
 	margin: auto;
 	margin-top: 45px;;
     }
 .border img{
-	
+
 	margin: auto;
 	margin-top: 30px;
 }
@@ -140,7 +160,7 @@ td{
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: auto;
-	margin-bottom:150px; 
+	margin-bottom:150px;
 	margin-top: 80px;
 }
 #route-title{
