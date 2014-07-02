@@ -48,7 +48,7 @@ p{
 	margin-left: 100px;
 	margin-right: 100px;
 	padding:30px;
-	border: solid 4px #FFF042;
+	border: solid 4px #FFF042 !important;
 }
 /*===================================================================================*/
 /*JUMBOTRON*/
