@@ -11,7 +11,9 @@ if($('body').hasClass('navbar-is-static-top')){
   });
 
 var height = $( window ).height() - 135;
-$video.height = height;
+$video.height(height);
+console.log(height);
+console.log($video.height());
 
   if ($filter.size())
   {
