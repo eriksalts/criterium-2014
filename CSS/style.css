@@ -117,6 +117,7 @@ p{
 	border-bottom: none;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	margin-bottom: 0px;
 }
 
 .navbar .sprite {
@@ -134,6 +135,14 @@ p{
 	text-transform: uppercase;
 	margin-bottom: 0px;
 	color:#6E6E6E;
+}
+
+.video-section.video-fixed {
+	position: fixed;
+	z-index: -100;
+	top: 135px;
+	height: 100%;
+	width: 100%;
 }
 /*==================================================================================*/
 /*SPRITES*/
