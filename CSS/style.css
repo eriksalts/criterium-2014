@@ -141,14 +141,31 @@ p{
 	margin-bottom: 0px;
 	color:#6E6E6E;
 }
+<<<<<<< HEAD
 /*=================================================================================*/
 /*VIDEO BACKGROUND*/
 .video-section.video-fixed {
 	position: fixed;
-	z-index: -100;
-	top: 135px;
-	height: 100%;
+=======
+
+.video-section {
+	height: 500px;
 	width: 100%;
+>>>>>>> 52764008d11a99e49c4140feacbd96c815dee3c0
+	z-index: -100;
+}
+
+.video-section .buttonBar {
+	display:none;
+}
+
+.player {
+	font-size: 1px;
+}
+
+.video-section.video-fixed {
+	position: fixed !important;
+	top: 135px;
 }
 /*==================================================================================*/
 /*SPRITES*/
@@ -230,15 +247,4 @@ td{
 }
 /*====================================================================================*/
 /*SPONSERS*/
-
-
-
-
-
-
-
-
-
-
-
 
