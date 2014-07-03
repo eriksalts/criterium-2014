@@ -10,6 +10,8 @@ if($('body').hasClass('navbar-is-static-top')){
     "height": $filter.outerHeight()
   });
 
+var height = $( window ).height() - 135;
+$video.height = height;
 
   if ($filter.size())
   {
