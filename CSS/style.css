@@ -34,8 +34,13 @@ p{
 	color: #FFF042;
 	letter-spacing: 1.2px;
 }
+.section-icon-text{
+    color:#6E6E6E;
+    font-size: 23px;
+}
 .icon-background{
 	margin: auto;
+    margin-bottom: 40px;
 	background-color: #FFF042;
 	height:180px;
 	width: 180px;
@@ -136,7 +141,8 @@ p{
 	margin-bottom: 0px;
 	color:#6E6E6E;
 }
-
+/*=================================================================================*/
+/*VIDEO BACKGROUND*/
 .video-section.video-fixed {
 	position: fixed;
 	z-index: -100;
@@ -156,13 +162,15 @@ p{
 
 /*===================================================================================*/
 /*RACE INFO*/
-.race-info-text{
-	margin-bottom: 30px;
+.sprite.race-info-section {
+    background-position: -96px 3px; width: 52px; height: 75px;
+    margin:auto;
+    margin-top: 25px;
 }
-.race-info-text img{
-	margin: auto;
-	margin-top: 30px;
+#race-info-text{
+	margin-left: 30px !important;
 }
+
 .content{
 	padding-top: 700px;/*Padding creates video viewing area*/
 }
@@ -170,9 +178,38 @@ p{
 	margin: auto;
 	margin-top: 45px;;
 }
+/*===================================================================================*/
+/*ROUTE*/
+.sprite.route-section {
+    background-position: -215px 2px; width: 73px; height: 75px;
+    margin:auto;
+    margin-top: 30px;
+}
+#route-text{
+    margin-left: 50px !important;
+}
+#route-title{
+    text-align: center;
+    border-bottom: black 4px solid;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+#route,
+.table
+{
+    margin: 0 60px 20px 60px;
+}
 
 /*====================================================================================*/
 /*SCHEDULE*/
+.sprite.schedule-section {
+    background-position: -298px 0px; width: 61px; height: 75px;
+    margin:auto;
+    margin-top: 30px;
+}
+#schedule-text{
+    margin-left: 28px !important;
+}
 .table{
 	font-size: 18px;
 	text-align: center;
@@ -191,24 +228,17 @@ td{
 	border: none !important;
 
 }
-/*===================================================================================*/
-/*ROUTE*/
-.route-image{
-	background-image: url('../images/route.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: auto;
-	margin-bottom:30px;
-	margin-top: 80px;
-}
-#route-title{
-	text-align: center;
-	border-bottom: black 4px solid;
-	margin-top: 80px;
-	margin-bottom: 40px;
-}
-#route,
-.table
-{
-	margin: 0 60px 20px 60px;
-}
+/*====================================================================================*/
+/*SPONSERS*/
+
+
+
+
+
+
+
+
+
+
+
+
