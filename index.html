@@ -66,7 +66,7 @@
 			</div>
 			</div> <!-- /carousel -->
 
-
+	<!-- NAVIGATION //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 			<nav class="navbar navbar-default navbar-static-top" role="navigation" id="nav">
 				<div class="navbar-header">
 			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -79,27 +79,27 @@
 	      		<div class="navbar-collapse collapse">
 	    			<nav role="navigation">
 	                 	<ul class="menu nav nav-pills nav-justified">
-	                 		<li class="first leaf"><a href="#">
+	                 		<li class="first leaf"><a href="#race-info" class="smoothScroll" >
 	                 			<div class='sprite race-info'></div>
 								<p>Race Info</p>
 	                 		</a></li>
-							<li class="leaf"><a href="#">
+							<li class="leaf"><a href="#schedule" class="smoothScroll">
 								<div class='sprite schedule'></div>
 								<p>Schedule</p>
 							</a></li>
-							<li class="leaf"><a href="#">
+							<li class="leaf"><a href="#route" class="smoothScroll">
 								<div class='sprite route'></div>
 								<p>Route</p>
 							</a></li>
-							<li class="leaf"><a href="#">
+							<li class="leaf"><a href="#gallery" class="smoothScroll">
 								<div class='sprite gallery'></div>
 								<p>Gallery</p>
 							</a></li>
-							<li class="leaf"><a href="#">
+							<li class="leaf"><a href="#register" class="smoothScroll">
 								<div class='sprite register'></div>
 								<p>Register</p>
 							</a></li>
-							<li class="last leaf"><a href="#">
+							<li class="last leaf"><a href="#sponsors" class="smoothScroll">
 								<div class='sprite sponsors'></div>
 								<p>Sponsors</p>
 							</a></li>
@@ -114,78 +114,84 @@
 		<div class="container-liquid" >
 <!-- 			<a id="bgndVideo" class="player" data-property="{videoURL:'http://www.youtube.com/watch?v=CG2Ys8t8Kh4',containment:'body', quality:'hd720', autoPlay:true, mute:true, opacity:1, loop:true}">bg</a> -->
 			<div id="P1" class="player vid-background" style="display:block; margin: auto; background: rgba(0,0,0,0.5)" data-property="{videoURL:'http://www.youtube.com/watch?v=CG2Ys8t8Kh4', vol:1, mute:true, containment:'.video-section', opacity:1, loop:true, quality:'hd720'}"></div>
-			<!-- RACE INFO BEGIN -->
+	<!-- RACE INFO BEGIN //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 			<div class="row content">
-				<div class="col-lg-12">
-					<div class="race-info-text icon-background">
-						<img class="img-responsive" src="images/race-info-text.png">
-					</div>
-				</div>
-				<!-- <div class="col-lg-12">
-					<div class="border hidden-xs">
-						<img class="img-responsive" src="images/border.png">
-					</div>
-				</div> -->
-				<!-- <div class="col-xs-12">
-					<div class="content-text hidden-xs">
-						<a href="#"><img class="img-responsive" src="images/content.png"></a>
-					</div>
-				</div> -->
+                <div class="col-lg-12">
+                    <div class="leaf icon-background">
+                    	<a name="race-info"></a>
+                        <div class='sprite race-info-section'></div>
+                        <p id="race-info-text" class="section-icon-text">RACE INFO</p>
+                    </div>
+                </div>
 				</div>
 				<div class="row panel">
-					<p class="">
-						Now entering its fifth year, the Stifel Edwardsville Rotary Criterium is a series of high-speed bicycle races, free kids races, live bands, and an open containers perimeter, all on the streets of Downtown, Edwardsville, Illinois.
-					<p class="">
-						Taking place this year on Saturday, August 16, 2014, this unique signature event has been hosted by the Edwardsville Rotary Club since 2010 as a fund-raiser for community enhancing projects and as a gift to the people in the Edwardsville area. Because Edwardsville is a bicycling city that loves big events and opportunities to show off our Downtown, the Criterium is a perfect fit.
-					<p class="">
-						PAYOUTS: The Stifel Edwardsville Rotary Criterium (E'ville Crit) $10,000 in payouts. One of the largest one-day payouts for a bike race in the region.  (Insert Criterium Payout schedule)
-					<p class="">
-						SANCTIONING:  is sanctioned by the USA Cycling Association and the Missouri Bicycle Racing Association (MOBRA).
-					<p class="">
-						NEW THIS YEAR: Cyclists in the E'ville Crit can earn points for the "Graffiti Road Racing Series" and "Yellow Brick Road Racing Series." Also new this year, participants can stay Saturday night and race in the Belleville Criterium the following day on Sunday, August 17, 2014, just 30 minutes south in Belleville, Illinois.
-					</p>
+					<div class="col-md-6">
+						<p class="">
+							Now entering its fifth year, the Stifel Edwardsville Rotary Criterium is a series of high-speed bicycle races, free kids races, live bands, and an open containers perimeter, all on the streets of Downtown, Edwardsville, Illinois.
+						<p class="race-info-spacing">
+							Event held rain or shine. Helmets must be worn at all times while on the bike.
+						<p class="race-info-spacing">
+							Taking place this year on Saturday, August 16, 2014, this unique signature event has been hosted by the Edwardsville Rotary Club since 2010 as a fund-raiser for community enhancing projects and as a gift to the people in the Edwardsville area. Because Edwardsville is a bicycling city that loves big events and opportunities to show off our Downtown, the Criterium is a perfect fit.
+						<p class="race-info-spacing">
+							SANCTIONING:  is sanctioned by the USA Cycling Association and the Missouri Bicycle Racing Association (MOBRA).
+						<p class="race-info-spacing">
+							NEW THIS YEAR: Cyclists in the E'ville Crit can earn points for the "Graffiti Road Racing Series" and "Yellow Brick Road Racing Series." Also new this year, participants can stay Saturday night and race in the Belleville Criterium the following day on Sunday, August 17, 2014, just 30 minutes south in Belleville, Illinois.
+						<p class="race-info-spacing">
+							For more information contact Race Director SJ Morrison at 618-558-3062 or smorrison@mct.org.
+						</p>
+					</div>
+					<div class="col-md-6">
+						<p class="">
+							PAYOUTS: The Stifel Edwardsville Rotary Criterium (E'ville Crit) $10,000 in payouts. One of the largest one-day payouts for a bike race in the region. 
+						</p>
+						<div id="payout-image-wrapper">
+							<img class="payout-image image-responsive" src="images/payouts-image.jpg">
+						</div>
+					</div>
 				</div>
-			<!-- ROUTE SECTION -->
+	<!-- ROUTE SECTION ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="race-info-text icon-background">
-						<img class="img-responsive" src="images/Route.png">
-					</div>
+                    <div class="leaf icon-background">
+                    	<a name="route"></a>
+                        <div class='sprite route-section'></div>
+                        <p id="route-text" class="section-icon-text">ROUTE</p>
+                    </div>
 				</div>
 			</div>
 			<div class="row panel">
 				<div class="col-lg-12">
 					<p id="route-p">The Starting Line for the Criterium is mid-block on Main Street almost directly across from the Flanigan Law Office. Riders will travel south on Main, make a sharp turn onto Vandalia for a 300 yard straightaway on Vandalia, then enter “Ninian’s Narrows” where the course narrows for 80 feet in front of the statue for Edwardsville’s namesake, Ninian Edwards. Cyclists will then make a series of quick turns, first a left on Benton, a right on Ramey, a right on Coventry and then a right on St. Louis Street.  From St. Louis the route veers at a 45 degree angle onto a 268-yard straightaway. With the Madison County courthouse on the left, cyclists will make the final turn back onto Main Street for a 90-yard sprint to the Finish Line.</p>
 				</div>
-
+				<h3 id="map-title">Downtown Edwardsville, Illinois</h3>
 				<div class="col-lg-12 image-frame">
 					<img class="route-image img-responsive" src="images/route.jpg">
 				</div>
 			</div>
-			<!-- SCHEDULE SECTION -->
+	<!-- SCHEDULE SECTION //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 			<div class="row">
-				<div class="col-lg-12">
-					<div class="race-info-text icon-background">
-						<img class="img-responsive" src="images/schedule.png">
-					</div>
-				</div>
+                <div class="col-lg-12">
+                    <div class="leaf icon-background">
+                    	
+                        <div class='sprite schedule-section'></div>
+                        <p id="schedule-text" class="section-icon-text">SCHEDULE</p>
+                    </div>
+                </div>
 			</div>
 			<div class="row panel">
+				<a name="schedule"></a>
+
 				<table class="table">
-					<!-- <tr>
+					<tr>
 						<th class="title" colspan="2">Schedule of Events</th>
-					</tr> -->
+					</tr>
 					<tr>
 						<td >3:00 - 11:00 p.m.</td>
 						<td>High Speed Pro Bike Racing on Main Street</td>
 					</tr>
 					<tr>
 						<td>5:00 – 10:00 p.m.</td>
-						<td>Free Court House Concerts (“The Robert Perry Band” and “Crazy Chester”)</td>
-					</tr>
-					<tr>
-						<td>4:00 – 11:00 p.m.</td>
-						<td>Race Route Pub Crawl Featuring Nine Downtown Destinations</td>
+						<td>Free Live Music in front of the Courthouse on Main Street</td>
 					</tr>
 					<tr>
 						<td>4:30 – 6:30 p.m.</td>
@@ -197,10 +203,33 @@
 					</tr>
 				</table>
 			</div>
-			<div>
-				<h2>SPONSERS</h2>
+	<!-- REGISTER /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+			<div class="row">
+				<div class="col-lg-12">
+                    <div class="leaf icon-background">
+                    	<a name="register"></a>
+                        <div class='sprite register-section'></div>
+                        <p id="register-text" class="section-icon-text">REGISTER</p>
+                    </div>
+				</div>
 			</div>
+			<div class="row panel">
+				<h4><strong>Registration:</strong></h4>
+				<p>No late fees. Race-day registration opens at 2:00 p.m. and closes 30 minutes before each race. Pre-register at _________. (Insert link here for the BikeReg site once its ready). </p>
+			</div>
+	<!-- SPONSORS /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+			<div class="row">
+				<div class="col-lg-12">
+                    <div class="leaf icon-background">
+                    	<a name="sponsors"></a>
+                        <div class='sprite sponsors-section'></div>
+                        <p id="sponsors-text" class="section-icon-text">SPONSORS</p>
+                    </div>
+				</div>
+			</div>
+			<div class="row panel">
 
+			</div>
 			<!-- END MAIN CONTENT -->
 			</div>
 		<!-- jQuery -->
@@ -209,5 +238,6 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="js/jquery.mb.YTPlayer.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/smoothscroll.js"></script>
 	</body>
 </html>
