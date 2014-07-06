@@ -42,7 +42,8 @@ p{
 }
 .icon-background{
 	margin: auto;
-    margin-bottom: 40px;
+	margin-top: 60px;
+	margin-bottom: 20px;
 	background-color: #FFF042;
 	height:180px;
 	width: 180px;
@@ -184,7 +185,7 @@ p{
 }
 
 .content{
-	padding-top: 700px;/*Padding creates video viewing area*/
+	padding-top: 500px; /*Padding creates video viewing area*/
 }
 .content-text img{
 	margin: auto;
