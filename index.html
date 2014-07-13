@@ -111,7 +111,7 @@
 
 	<!-- BEGIN MAIN CONTENT -->
 		<div class="video-section"></div>
-		<div class="container-liquid" >
+		<div class="container-fluid" >
 <!-- 			<a id="bgndVideo" class="player" data-property="{videoURL:'http://www.youtube.com/watch?v=CG2Ys8t8Kh4',containment:'body', quality:'hd720', autoPlay:true, mute:true, opacity:1, loop:true}">bg</a> -->
 			<div id="P1" class="player vid-background" style="display:block; margin: auto; background: rgba(0,0,0,0.5)" data-property="{videoURL:'http://www.youtube.com/watch?v=CG2Ys8t8Kh4', vol:1, mute:true, containment:'.video-section', opacity:1, loop:true, quality:'hd720'}"></div>
 	<!-- RACE INFO BEGIN //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -137,16 +137,17 @@
 						<p class="race-info-spacing">
 							NEW THIS YEAR: Cyclists in the E'ville Crit can earn points for the "Graffiti Road Racing Series" and "Yellow Brick Road Racing Series." Also new this year, participants can stay Saturday night and race in the Belleville Criterium the following day on Sunday, August 17, 2014, just 30 minutes south in Belleville, Illinois.
 						<p class="race-info-spacing">
-							For more information contact Race Director SJ Morrison at 618-558-3062 or smorrison@mct.org.
+							For more information contact Race Director SJ Morrison at 618-558-3062 or stm11@hotmail.com.
 						</p>
 					</div>
 					<div class="col-md-6">
 						<p class="">
-							PAYOUTS: The Stifel Edwardsville Rotary Criterium (E'ville Crit) $10,000 in payouts. One of the largest one-day payouts for a bike race in the region. 
+							PAYOUTS: The Stifel Edwardsville Rotary Criterium (E'ville Crit) offers $10,000 in payouts. One of the largest one-day payouts for a bike race in the region.
 						</p>
-						<div id="payout-image-wrapper">
-							<img class="payout-image image-responsive" src="images/payouts-image.jpg">
-						</div>
+						<!--<div id="payout-image-wrapper">-->
+                            <h1 id="payout-title">&#36;10,000 in Payouts</h1>
+							<img id="payout-image image-responsive" src="images/payouts-image.jpg">
+						<!--</div>-->
 					</div>
 				</div>
 	<!-- ROUTE SECTION ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -180,28 +181,28 @@
 			</div>
 			<div class="row panel">
 				<a name="schedule"></a>
-
-				<table class="table">
-					<tr>
-						<th class="title" colspan="2">Schedule of Events</th>
-					</tr>
-					<tr>
-						<td >3:00 - 11:00 p.m.</td>
-						<td>High Speed Pro Bike Racing on Main Street</td>
-					</tr>
-					<tr>
-						<td>5:00 – 10:00 p.m.</td>
-						<td>Free Live Music in front of the Courthouse on Main Street</td>
-					</tr>
-					<tr>
-						<td>4:30 – 6:30 p.m.</td>
-						<td>Registration for Free Kids Races</td>
-					</tr>
-					<tr>
-						<td>6:45 p.m.</td>
-						<td>Four Free Kids Races (Ages 3 &amp;amp; under / Ages 4-6 / Ages 7-8 / Ages 9-10)</td>
-					</tr>
-				</table>
+                <img class="img-responsive" src="race-schedule.png">
+				<!--<table class="table">-->
+					<!--<tr>-->
+						<!--<th class="title" colspan="2">Schedule of Events</th>-->
+					<!--</tr>-->
+					<!--<tr>-->
+						<!--<td >3:00 - 11:00 p.m.</td>-->
+						<!--<td>High Speed Pro Bike Racing on Main Street</td>-->
+					<!--</tr>-->
+					<!--<tr>-->
+						<!--<td>5:00 – 10:00 p.m.</td>-->
+						<!--<td>Free Live Music in front of the Courthouse on Main Street</td>-->
+					<!--</tr>-->
+					<!--<tr>-->
+						<!--<td>4:30 – 6:30 p.m.</td>-->
+						<!--<td>Registration for Free Kids Races</td>-->
+					<!--</tr>-->
+					<!--<tr>-->
+						<!--<td>6:45 p.m.</td>-->
+						<!--<td>Four Free Kids Races (Ages 3 &amp;amp; under / Ages 4-6 / Ages 7-8 / Ages 9-10)</td>-->
+					<!--</tr>-->
+				<!--</table>-->
 			</div>
 	<!-- REGISTER /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 			<div class="row">
@@ -215,7 +216,7 @@
 			</div>
 			<div class="row panel">
 				<h4><strong>Registration:</strong></h4>
-				<p>No late fees. Race-day registration opens at 2:00 p.m. and closes 30 minutes before each race. Pre-register at _________. (Insert link here for the BikeReg site once its ready). </p>
+				<p>No late fees. Race-day registration opens at 2:00 p.m. and closes 30 minutes before each race. Pre-registration will open Monday, July21 on BikeReg.com. Please check back for updates. </p>
 			</div>
 	<!-- SPONSORS /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 			<div class="row">
@@ -228,6 +229,41 @@
 				</div>
 			</div>
 			<div class="row panel">
+                <p>The Stifel Edwardsville Rotary Criterium would not be possible without the generous support of our sponsors. The Edwardsville Rotary Club would like to recognize the following businesses and organizations for their support of this event.</p>
+                <table class="table">
+                    <tr>
+                        <td >Title Sponsor:</td>
+                        <td>Stifel</td>
+                    </tr>
+                    <tr>
+                        <td>Presenting Sponsor:</td>
+                        <td>City of Edwardsville</td>
+                    </tr>
+                    <tr>
+                        <td>Men 1/2 Race Sponsor:</td>
+                        <td>TheBank of Edwardsville</td>
+                    </tr>
+                    <tr>
+                        <td>Women Open Sponsor:</td>
+                        <td>Anderson Hospital</td>
+                    </tr>
+                    <tr>
+                        <td>Concert Sponsor:</td>
+                        <td>Madison Mutual</td>
+                    </tr>
+                </table>
+                <p>The following sponsorships are still available. If you'd like to sponsor at any level, please contact Brian Mulhall at brian@brianmulhall.com or at 618-920-5323.</p>
+                <ul id="available-sponsorships">
+                    <li>Kids Race Sponsor</li>
+                    <li>Juniors/Women 4 Race Sponsor</li>
+                    <li>Men 4 Race Sponsor</li>
+                    <li>Men 5 Race Sponsor</li>
+                    <li>Registration Table Sponsor</li>
+                    <li>Pace Car Sponsor</li>
+                    <li>Volunteer Check-in Sponsor</li>
+                    <li>Concert Stage Sponsor</li>
+                    <li>Multiple Bale Sponsorships are available as well.</li>
+                </ul>
 
 			</div>
 			<!-- END MAIN CONTENT -->

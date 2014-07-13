@@ -26,13 +26,13 @@ body{
 	}
 }
 
-p, h1, h2, h3, h4, h5, h6, span {
+p, h1, h2, h3, h4, h5, h6, span, li {
 	font-family: "myriad-pro",sans-serif;
 }
-p, h1, h2, h3, h4, h5, h6{
+p, h1, h2, h3, h4, h5, h6, li{
 	color: #FFF042;
 }
-p{
+p, li{
 	font-size: 18px;
 	letter-spacing: 1.2px;
 }
@@ -191,11 +191,14 @@ p{
 	margin: auto;
 	margin-top: 45px;;
 }
-#payout-image-wrapper{	
-	margin:auto;
+#payout-image{
+	margin-left:40px;
 }
 .race-info-spacing{
 	margin-top: 40px;
+}
+#payout-title{
+    text-align: center;
 }
 /*===================================================================================*/
 /*ROUTE*/
@@ -267,4 +270,7 @@ td{
 }
 #sponsors-text{
     margin-left: 26px !important;
+}
+#available-sponsorships{
+    list-style: none;
 }
