@@ -26,10 +26,10 @@ body{
 	}
     #sponsor-panel{
         background-color: #FFF042 !important;
-        margin-left:5px !important;
-        margin-right: 5px !important;
+        margin:0;
         padding:20px;
     }
+
 }
 
 p, h1, h2, h3, h4, h5, h6, span, li {
@@ -58,10 +58,13 @@ p, li{
 }
 .panel{
 	background-color: rgba(0,0,0,0.8);
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 10px;
 	padding:20px;
 	border: solid 4px #FFF042 !important;
+}
+.hidden-sponsors{
+    margin:auto;
+    padding: 10px;
 }
 #race-info-text,
 #kids-race-text,
