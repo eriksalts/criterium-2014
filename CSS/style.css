@@ -24,6 +24,12 @@ body{
 	.mobile-nav-wrapper{
 		margin-top: 20px !important;
 	}
+    #sponsor-panel{
+        background-color: #FFF042 !important;
+        margin-left:5px !important;
+        margin-right: 5px !important;
+        padding:20px;
+    }
 }
 
 p, h1, h2, h3, h4, h5, h6, span, li {
@@ -52,10 +58,18 @@ p, li{
 }
 .panel{
 	background-color: rgba(0,0,0,0.8);
-	margin-left: 100px;
-	margin-right: 100px;
-	padding:30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding:20px;
 	border: solid 4px #FFF042 !important;
+}
+#race-info-text,
+#kids-race-text,
+#route-text,
+#schedule-text,
+#register-text,
+#sponsors-text{
+    text-align: center;
 }
 /*===================================================================================*/
 /*JUMBOTRON*/
@@ -200,7 +214,7 @@ p, li{
     margin:auto;
     margin-top: 25px;
 }
-#race-info-text{
+{
 	margin-left: 30px !important;
 }
 
@@ -212,7 +226,7 @@ p, li{
 	margin-top: 45px;;
 }
 #payout-image{
-	margin-left:40px;
+	margin:auto;
 }
 #payout-image-wrapper{	
 	margin:auto;
@@ -230,21 +244,9 @@ p, li{
     margin:auto;
     margin-top: 25px;
 }
-#kids-race-text{
-    margin-left: 30px !important;
-}
+
 #payout-title{
     text-align: center;
-}
-/*===================================================================================*/
-/*KIDS RACE*/
-.sprite.kids-race-section {
-    background-position:5px 0px; width: 86px; height: 75px;;
-    margin:auto;
-    margin-top: 25px;
-}
-#kids-race-text{
-    margin-left: 30px !important;
 }
 /*===================================================================================*/
 /*ROUTE*/
@@ -252,9 +254,6 @@ p, li{
     background-position:-201px 2px; width: 73px; height: 75px;
     margin:auto;
     margin-top: 30px;
-}
-#route-text{
-    margin-left: 50px !important;
 }
 #map-title{
 	margin:auto;
@@ -283,9 +282,6 @@ p, li{
     margin:auto;
     margin-top: 30px;
 }
-#schedule-text{
-    margin-left: 28px !important;
-}
 .table{
 	font-size: 18px;
 	margin: auto;
@@ -304,18 +300,13 @@ td{
     margin:auto;
     margin-top: 30px;
 }
-#register-text{
-    margin-left: 34px !important;
-}
+
 /*====================================================================================*/
 /*SPONSERS*/
 .sprite.sponsors-section {
     background-position: -354px -3px; width: 78px; height: 75px;
     margin:auto;
     margin-top: 30px;
-}
-#sponsors-text{
-    margin-left: 26px !important;
 }
 #available-sponsorships{
     list-style: none;
