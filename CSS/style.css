@@ -214,8 +214,24 @@ p, li{
 #payout-image{
 	margin-left:40px;
 }
+#payout-image-wrapper{	
+	margin:auto;
+}
 .race-info-spacing{
 	margin-top: 40px;
+}
+#payout-title{
+    text-align: center;
+}
+/*===================================================================================*/
+/*KIDS RACE*/
+.sprite.kids-race-section {
+    background-position:5px 0px; width: 86px; height: 75px;;
+    margin:auto;
+    margin-top: 25px;
+}
+#kids-race-text{
+    margin-left: 30px !important;
 }
 #payout-title{
     text-align: center;
@@ -289,7 +305,8 @@ td{
     margin-top: 30px;
 }
 #register-text{
-    margin-left: 34px !important;
+    /*margin-left: 34px !important;*/
+    margin-left: 26px !important;
 }
 /*====================================================================================*/
 /*SPONSERS*/
