@@ -32,7 +32,10 @@ p, h1, h2, h3, h4, h5, h6, span, li {
 p, h1, h2, h3, h4, h5, h6, li{
 	color: #FFF042;
 }
-p, li{
+p, h1, h2, h3, h4, h5, h6{
+	color: #FFF042;
+}
+p{
 	font-size: 18px;
 	letter-spacing: 1.2px;
 }
@@ -211,12 +214,15 @@ p, li{
 	margin: auto;
 	margin-top: 45px;;
 }
-#payout-image{
-	margin-left:40px;
+#payout-image {
+    margin-left: 40px;
+}
+#payout-image-wrapper{	
+	margin:auto;
 }
 .race-info-spacing{
 	margin-top: 40px;
-}
+}''''
 #payout-title{
     text-align: center;
 }
@@ -289,7 +295,8 @@ td{
     margin-top: 30px;
 }
 #register-text{
-    margin-left: 34px !important;
+    /*margin-left: 34px !important;*/
+    margin-left: 26px !important;
 }
 /*====================================================================================*/
 /*SPONSERS*/
