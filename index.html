@@ -1,396 +1,465 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-	 <meta charset="utf-8">
+
+<head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="//use.typekit.net/yqh0yax.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
-	<link rel="stylesheet" href="CSS/style.css">
-		<title>TheBANK of Edwardsville Rotary Criterium</title>
-	</head>
-	<body class="navbar-is-static-top">
-		<div class="container-fluid">
-			<!-- LOGO -->
-            <div class="col-lg-4 visible-lg" id="logo-wrapper"><!--Positioned Absolute -->
-                <!-- <img id="stifel" class="img-responsive" src="images/Stifel.png"> -->
-            </div>
-			 <div class="col-lg-4" id="logo-wrapper"><!--Positioned Absolute -->
-				<img id="logo" class="img-responsive" src="images/rc_logo.png">
-			</div>
-            <div class="col-lg-4 visible-lg" id="logo-wrapper"><!--Positioned Absolute -->
-                <img id="city" class="img-responsive" src="images/city-of-edwardsville.png">
-            </div>
-		</div>
-			<!-- /logo -->
-			<div id="carousel-wrapper">
-				<div id="carousel-slider" class="carousel slide" data-ride="carousel">
-			  <!-- Indicators -->
-			  	<ol class="carousel-indicators">
-				    <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
-				    <li data-target="#carousel-slider" data-slide-to="1"></li>
-				    <li data-target="#carousel-slider" data-slide-to="2"></li>
-                    <li data-target="#carousel-slider" data-slide-to="3"></li>
-                    <li data-target="#carousel-slider" data-slide-to="4"></li>
-                    <!--<li data-target="#carousel-slider" data-slide-to="5"></li>-->
-				</ol>
+    <script type="text/javascript">
+    try {
+        Typekit.load();
+    } catch (e) {}
+    </script>
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>TheBANK of Edwardsville Rotary Criterium</title>
+</head>
 
-			  <!-- Wrapper for slides -->
-			  	<div class="carousel-inner">
-
-					      <div class="item active">
-					        <a href="#"><img src="images/banners/cyclists.png" alt="Over 300 Cyclists" class="img-responsive"></a>
-					      </div>
-					       <div class="item">
-					        <a href="#"><img src="images/banners/kids.png"  alt="Four Free Kids Races" class="img-responsive"></a>
-					      </div>
-					      <div class="item">
-							<a href="#"><img src="images/banners/payouts.png"  alt="$10,000 in Payouts!" class="img-responsive"></a>
-						  </div>
-                          <div class="item">
-                            <a href="#"><img src="images/banners/spectators.png"  alt="Thousands of Spectators" class="img-responsive"></a>
-                          </div>
-                          <div class="item">
-                            <a href="#"><img src="images/banners/band.png"  alt="Live Music in Front of the Courthouse" class="img-responsive"></a>
-                          </div>
-					    </div>
-
-			  <!-- Controls -->
-			  <a class="left carousel-control" href="#carousel-slider" role="button" data-slide="prev">
-			    <span class="glyphicon glyphicon-chevron-left"></span>
-			  </a>
-			  <a class="right carousel-control" href="#carousel-slider" role="button" data-slide="next">
-			    <span class="glyphicon glyphicon-chevron-right"></span>
-			  </a>
-			</div>
-			<div class="row callout">
-				<div class="col-md-12">
-					<h1 class>SATURDAY, AUGUST 20, 2016</h1>
-					<h2 class>The region's most entertaining and high-speed weekend returns to Downtown Edwardsville, Illinois</h2>
-				</div>
-			</div> <!-- /carousel -->
-			<nav class="navbar navbar-default navbar-static-top" role="navigation" id="nav">
-				<div class="navbar-header">
-			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			    </div>
-	      		<div class="navbar-collapse collapse">
-	    			<nav role="navigation">
-	                 	<ul class="menu nav nav-pills nav-justified">
-	                 		<li class="first leaf"><a href="#race-info" class="smoothScroll" >
-	                 			<div class='sprite race-info'></div>
-								<p>Race Info</p>
-	                 		</a></li>
-							<li class="leaf"><a href="#schedule" class="smoothScroll">
-								<div class='sprite schedule'></div>
-								<p>Schedule</p>
-							</a></li>
-							<li class="leaf"><a href="#route" class="smoothScroll">
-								<div class='sprite route'></div>
-								<p>Route</p>
-							</a></li>
-							<li class="leaf"><a href="#kids" class="smoothScroll">
-								<div class='sprite kids'></div>
-								<p>CRIT KIDS</p>
-							</a></li>
-							<li class="leaf"><a href="#register" class="smoothScroll">
-								<div class='sprite register'></div>
-								<p>Register</p>
-							</a></li>
-							<li class="last leaf"><a href="#sponsors" class="smoothScroll">
-								<div class='sprite sponsors'></div>
-								<p>Sponsors</p>
-							</a></li>
-						</ul>
-					</nav>
-	  			</div>
-	  		</nav>
-	  	</div>
-
-	<!-- BEGIN MAIN CONTENT -->
-		<div class="video-section"></div>
-		<div class="container-fluid" >
-<!-- 	<a id="bgndVideo" class="player" data-property="{videoURL:'http://www.youtube.com/watch?v=CG2Ys8t8Kh4',containment:'body', quality:'hd720', autoPlay:true, mute:true, opacity:1, loop:true}">bg</a> -->
-			<div id="P1" class="player vid-background" style="display:block; margin: auto; background: rgba(0,0,0,0.5)" data-property="{videoURL:'http://www.youtube.com/watch?v=CG2Ys8t8Kh4', vol:1, mute:true, containment:'.video-section', opacity:1, loop:true, quality:'hd720'}"></div>
-	<!-- RACE INFO BEGIN //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-			<div class="row content">
-                <div class="col-lg-12">
-                    <div class="leaf icon-background">
-                    	<a name="race-info"></a>
-                        <div class='sprite race-info-section'></div>
-                        <p id="race-info-text" class="section-icon-text">RACE INFO</p>
-                    </div>
+<body class="navbar-is-static-top">
+    <div class="container-fluid">
+        <!-- LOGO -->
+        <div class="col-lg-4 visible-lg" id="logo-wrapper">
+            <!--Positioned Absolute -->
+            <!-- <img id="stifel" class="img-responsive" src="images/Stifel.png"> -->
+        </div>
+        <div class="col-lg-4" id="logo-wrapper">
+            <!--Positioned Absolute -->
+            <img id="logo" class="img-responsive" src="images/rc_logo.png">
+        </div>
+        <div class="col-lg-4 visible-lg" id="logo-wrapper">
+            <!--Positioned Absolute -->
+            <img id="city" class="img-responsive" src="images/city-of-edwardsville.png">
+        </div>
+    </div>
+    <!-- /logo -->
+    <div id="carousel-wrapper">
+        <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-slider" data-slide-to="1"></li>
+                <li data-target="#carousel-slider" data-slide-to="2"></li>
+                <li data-target="#carousel-slider" data-slide-to="3"></li>
+                <li data-target="#carousel-slider" data-slide-to="4"></li>
+                <!--<li data-target="#carousel-slider" data-slide-to="5"></li>-->
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="#"><img src="images/banners/cyclists.png" alt="Over 300 Cyclists" class="img-responsive"></a>
                 </div>
-			</div>
-			<div class="row panel">
-                <h4><strong>Race Information</strong></h4>
-					<div class="col-md-6">
-						<p class="">
-							Now entering its fifth year, the TheBANK of Edwardsville Rotary Criterium is a series of high-speed bicycle races, free kids races, live bands, and an open containers perimeter, all on the streets of Downtown, Edwardsville, Illinois.
-                        </p>
-						<p class="race-info-spacing">
-							Event held rain or shine. Helmets must be worn at all times while on the bike.
-                        </p>
-						<p class="race-info-spacing">
-							Taking place this year on Saturday, August 20, 2016, this unique signature event has been hosted by the Edwardsville Rotary Club since 2010 as a fund-raiser for community enhancing projects and as a gift to the people in the Edwardsville area. Because Edwardsville is a bicycling city that loves big events and opportunities to show off our Downtown, the Criterium is a perfect fit.
-                        </p>
-						<p class="race-info-spacing">
-							SANCTIONING:  is sanctioned by the USA Cycling Association and the Missouri Bicycle Racing Association (MOBRA).
-                        </p>
-						<p class="race-info-spacing">
-							For more information contact Race Director SJ Morrison at 618-558-3062 or stm11@hotmail.com.
-						</p>
-					</div>
-					<div class="col-md-6">
-						<p class="">
-							PAYOUTS: The TheBANK of Edwardsville Rotary Criterium (E'ville Crit) offers $10,000 in payouts. One of the largest one-day payouts for a bike race in the region.
-						</p>
-						<!--<div id="payout-image-wrapper">-->
-                            <h1 id="payout-title">&#36;10,000 in Payouts</h1>
-							<img id="payout-image" class="img-responsive" src="images/payouts-image.jpg">
-						<!--</div>-->
-					</div>
-			</div>
-    <!--KIDS RACE SECTION /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="leaf icon-background">
-                        <a name="kids"></a>
-                        <div class='sprite kids-race-section'></div>
-                        <p id="kids-race-text" class="section-icon-text">CRIT KIDS</p>
-                    </div>
+                <div class="item">
+                    <a href="#"><img src="images/banners/kids.png" alt="Four Free Kids Races" class="img-responsive"></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="images/banners/payouts.png" alt="$10,000 in Payouts!" class="img-responsive"></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="images/banners/spectators.png" alt="Thousands of Spectators" class="img-responsive"></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="images/banners/band.png" alt="Live Music in Front of the Courthouse" class="img-responsive"></a>
                 </div>
             </div>
-            <div class="row panel">
-                <h4><strong>CRIT KIDS</strong></h4>
-                <p>The Edwardsville Wrestling Club and the Fellowship of Christian Athletes is sponsoring the 2015 Edwardsvillle Rotary Criterium Kids Races! We’re hosting four FREE kids races, which begin at 6:45 p.m. Registration for the kids races is from 4:30 p.m. – 6:30 p.m. at the Race Headquarters Registration tent at the corner of Main & Vandalia in Downtown Edwardsville – near Walgreens. The categories are: Ages 3 & Under / Ages 4 – 6 / Ages 7 – 8 / Ages 9 – 10. Helmets are required and must be worn at all times during the race. (Sponsored by the Edwardsville Wrestling Club and Fellowship of Christian Athletes)</p>
-<br><h4><strong>First Clover Leaf Bank & Edw. Arts Center “Pedal & Paint Art Tent”</strong></h4>
-<p>Kids of all ages are invited to join First Clover Leaf Bank and the Edwardsville Arts Center for the first ever “Pedal & Paint Art Tent” at the Criterium. Visitors to the tent can MAKE AND TAKE a FREE bicycle-themed piece of artwork. The tent is located at the intersection of Main and Vandalia in Downtown Edwardsville, near Walgreens and the Kids Race Registration Tent.</p>
-<br><h4><strong>Helmet Giveaway (Edwardsville Township & the Glennon Kids Safety Program)</strong></h4>
-<p>Edwardsville Township is partnering with the Glennon Kids Safety Program to provide free bike helmets to children who visit the Edwardsville Township tent at the Criterium. Supplies are limited, so come early!</p>
-</div>
-	<!-- ROUTE SECTION ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-			<div class="row">
-				<div class="col-lg-12">
-                    <div class="leaf icon-background">
-                    	<a name="route"></a>
-                        <div class='sprite route-section'></div>
-                        <p id="route-text" class="section-icon-text">ROUTE</p>
-                    </div>
-				</div>
-			</div>
-			<div class="row panel">
-				<div class="col-lg-12">
-                    <h4><strong>Route</strong></h4>
-					<p id="route-p">The Starting Line for the Criterium is mid-block on Main Street almost directly across from the Flanigan Law Office. Riders will travel south on Main, make a sharp turn onto Vandalia for a 300 yard straightaway on Vandalia, then enter “Ninian’s Narrows” where the course narrows for 80 feet in front of the statue for Edwardsville’s namesake, Ninian Edwards. Cyclists will then make a series of quick turns, first a left on Benton, a right on Ramey, a right on Coventry and then a right on St. Louis Street.  From St. Louis the route veers at a 45 degree angle onto a 268-yard straightaway. With the Madison County courthouse on the left, cyclists will make the final turn back onto Main Street for a 90-yard sprint to the Finish Line.</p>
-				</div>
-				<h3 id="map-title">Downtown Edwardsville, Illinois</h3>
-				<div class="col-lg-12">
-					<img class="route-image img-responsive" src="images/route.jpg">
-				</div>
-			</div>
-	<!-- SCHEDULE SECTION //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-			<div class="row">
-                <div class="col-lg-12">
-                    <div class="leaf icon-background">
-                        <div class='sprite schedule-section'></div>
-                        <p id="schedule-text" class="section-icon-text">SCHEDULE</p>
-                    </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-slider" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-slider" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <div class="row callout">
+            <div class="col-md-12">
+                <h1 class>SATURDAY, AUGUST 20, 2016</h1>
+                <h2 class>The region's most entertaining and high-speed weekend returns to Downtown Edwardsville, Illinois</h2>
+            </div>
+        </div>
+        <!-- /carousel -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" id="nav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <nav role="navigation">
+                    <ul class="menu nav nav-pills nav-justified">
+                        <li class="first leaf">
+                            <a href="#race-info" class="smoothScroll">
+                                <div class='sprite race-info'></div>
+                                <p>Race Info</p>
+                            </a>
+                        </li>
+                        <li class="leaf">
+                            <a href="#schedule" class="smoothScroll">
+                                <div class='sprite schedule'></div>
+                                <p>Schedule</p>
+                            </a>
+                        </li>
+                        <li class="leaf">
+                            <a href="#route" class="smoothScroll">
+                                <div class='sprite route'></div>
+                                <p>Route</p>
+                            </a>
+                        </li>
+                        <li class="leaf">
+                            <a href="#kids" class="smoothScroll">
+                                <div class='sprite kids'></div>
+                                <p>CRIT KIDS</p>
+                            </a>
+                        </li>
+                        <li class="leaf">
+                            <a href="#register" class="smoothScroll">
+                                <div class='sprite register'></div>
+                                <p>Register</p>
+                            </a>
+                        </li>
+                        <li class="last leaf">
+                            <a href="#sponsors" class="smoothScroll">
+                                <div class='sprite sponsors'></div>
+                                <p>Sponsors</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </div>
+    <!-- BEGIN MAIN CONTENT -->
+    <div class="video-section"></div>
+    <div class="container-fluid">
+        <!--    <a id="bgndVideo" class="player" data-property="{videoURL:'http://www.youtube.com/watch?v=CG2Ys8t8Kh4',containment:'body', quality:'hd720', autoPlay:true, mute:true, opacity:1, loop:true}">bg</a> -->
+        <div id="P1" class="player vid-background" style="display:block; margin: auto; background: rgba(0,0,0,0.5)" data-property="{videoURL:'http://www.youtube.com/watch?v=CG2Ys8t8Kh4', vol:1, mute:true, containment:'.video-section', opacity:1, loop:true, quality:'hd720'}"></div>
+        <!-- RACE INFO BEGIN -->
+        <div class="row content">
+            <div class="col-lg-12">
+                <div class="leaf icon-background">
+                    <a name="race-info"></a>
+                    <div class='sprite race-info-section'></div>
+                    <p id="race-info-text" class="section-icon-text">RACE INFO</p>
                 </div>
-			</div>
-			<div class="row panel">
-				<a name="schedule"></a>
-                <h4><strong>Schedule</strong></h4>
-                    <img class="img-responsive" src="images/2015-schedule.png" style="margin-left: auto; margin-right: auto;">
-				<table class="table">
-					<tr>
-						<th class="title" colspan="2">Schedule of Events</th>
-					</tr>
+            </div>
+        </div>
+        <div class="row panel">
+            <h4><strong>Race Information</strong></h4>
+            <div class="col-md-6">
+                <p class="">
+                    Now entering its fifth year, the TheBANK of Edwardsville Rotary Criterium is a series of high-speed bicycle races, free kids races, live bands, and an open containers perimeter, all on the streets of Downtown, Edwardsville, Illinois.
+                </p>
+                <p class="race-info-spacing">
+                    Event held rain or shine. Helmets must be worn at all times while on the bike.
+                </p>
+                <p class="race-info-spacing">
+                    Taking place this year on Saturday, August 20, 2016, this unique signature event has been hosted by the Edwardsville Rotary Club since 2010 as a fund-raiser for community enhancing projects and as a gift to the people in the Edwardsville area. Because Edwardsville is a bicycling city that loves big events and opportunities to show off our Downtown, the Criterium is a perfect fit.
+                </p>
+                <p class="race-info-spacing">
+                    SANCTIONING: is sanctioned by the USA Cycling Association and the Missouri Bicycle Racing Association (MOBRA).
+                </p>
+                <p class="race-info-spacing">
+                    For more information contact Race Director SJ Morrison at 618-558-3062 or stm11@hotmail.com.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p class="">
+                    PAYOUTS: The TheBANK of Edwardsville Rotary Criterium (E'ville Crit) offers $10,000 in payouts. One of the largest one-day payouts for a bike race in the region.
+                </p>
+                <!--<div id="payout-image-wrapper">-->
+                <h1 id="payout-title">&#36;10,000 in Payouts</h1>
+                <img id="payout-image" class="img-responsive" src="images/payouts-image.jpg">
+                <!--</div>-->
+            </div>
+        </div>
+        <!--KIDS RACE SECTION -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="leaf icon-background">
+                    <a name="kids"></a>
+                    <div class='sprite kids-race-section'></div>
+                    <p id="kids-race-text" class="section-icon-text">CRIT KIDS</p>
+                </div>
+            </div>
+        </div>
+        <div class="row panel">
+            <h4><strong>CRIT KIDS</strong></h4>
+            <p>The Edwardsville Wrestling Club and the Fellowship of Christian Athletes is sponsoring the 2015 Edwardsvillle Rotary Criterium Kids Races! We&rsquo;re hosting four FREE kids races, which begin at 6:45 p.m. Registration for the kids races is from 4:30 p.m. &ndash; 6:30 p.m. at the Race Headquarters Registration tent at the corner of Main &amp; Vandalia in Downtown Edwardsville &ndash; near Walgreens. The categories are: Ages 3 &amp; Under / Ages 4 &ndash; 6 / Ages 7 &ndash; 8 / Ages 9 &ndash; 10. Helmets are required and must be worn at all times during the race. (Sponsored by the Edwardsville Wrestling Club and Fellowship of Christian Athletes)</p>
+            <br>
+            <h4><strong>First Clover Leaf Bank &amp; Edw. Arts Center &ldquo;Pedal &amp; Paint Art Tent&rdquo;</strong></h4>
+            <p>Kids of all ages are invited to join First Clover Leaf Bank and the Edwardsville Arts Center for the first ever &ldquo;Pedal &amp; Paint Art Tent&rdquo; at the Criterium. Visitors to the tent can MAKE AND TAKE a FREE bicycle-themed piece of artwork. The tent is located at the intersection of Main and Vandalia in Downtown Edwardsville, near Walgreens and the Kids Race Registration Tent.</p>
+            <br>
+            <h4><strong>Helmet Giveaway (Edwardsville Township &amp; the Glennon Kids Safety Program)</strong></h4>
+            <p>Edwardsville Township is partnering with the Glennon Kids Safety Program to provide free bike helmets to children who visit the Edwardsville Township tent at the Criterium. Supplies are limited, so come early!</p>
+        </div>
+        <!-- ROUTE SECTION -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="leaf icon-background">
+                    <a name="route"></a>
+                    <div class='sprite route-section'></div>
+                    <p id="route-text" class="section-icon-text">ROUTE</p>
+                </div>
+            </div>
+        </div>
+        <div class="row panel">
+            <div class="col-lg-12">
+                <h4><strong>Route</strong></h4>
+                <p id="route-p">The Starting Line for the Criterium is mid-block on Main Street almost directly across from the Flanigan Law Office. Riders will travel south on Main, make a sharp turn onto Vandalia for a 300 yard straightaway on Vandalia, then enter &ldquo;Ninian&rsquo;s Narrows&rdquo; where the course narrows for 80 feet in front of the statue for Edwardsville&rsquo;s namesake, Ninian Edwards. Cyclists will then make a series of quick turns, first a left on Benton, a right on Ramey, a right on Coventry and then a right on St. Louis Street. From St. Louis the route veers at a 45 degree angle onto a 268-yard straightaway. With the Madison County courthouse on the left, cyclists will make the final turn back onto Main Street for a 90-yard sprint to the Finish Line.</p>
+            </div>
+            <h3 id="map-title">Downtown Edwardsville, Illinois</h3>
+            <div class="col-lg-12">
+                <img class="route-image img-responsive" src="images/route.jpg">
+            </div>
+        </div>
+        <!-- SCHEDULE SECTION -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="leaf icon-background">
+                    <div class='sprite schedule-section'></div>
+                    <p id="schedule-text" class="section-icon-text">SCHEDULE</p>
+                </div>
+            </div>
+        </div>
+        <div class="row panel">
+            <a name="schedule"></a>
+            <h4><strong>Schedule</strong></h4>
+            <img class="img-responsive" src="images/2015-schedule.png" style="margin-left: auto; margin-right: auto;">
+            <table class="table">
+                <tr>
+                    <th class="title" colspan="2">Schedule of Events</th>
+                </tr>
+                <tr>
+                    <td>3:00 - 11:00 p.m.</td>
+                    <td>High Speed Pro Bike Racing on Main Street</td>
+                </tr>
+                <tr>
+                    <td>3:00 - 11:00 p.m.</td>
+                    <td>Open Containers Perimeter on Main Street</td>
+                </tr>
+                <tr>
+                    <td>3:00 &ndash; 11:00 p.m.</td>
+                    <td>Free Live Music in front of the Courthouse on Main Street
+                        <br>
+                        <ol>
+                            <li>Exit 12 (Edwardsville&rsquo;s Own (3:00 pm &ndash; 5:30 pm)</li>
+                            <li>Howl at the Moon Dueling Pianos (5:30 pm &ndash; 8:00 pm)</li>
+                            <li>Jake Gehret &amp; the Brokedown Sound (8:00 pm &ndash; 10:30 pm)</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3:00 - 8:00 p.m.</td>
+                    <td>First Clover Leaf Bank / Edw. Arts Center Pedal &amp; Paint Art Tent</td>
+                </tr>
+                <tr>
+                    <td>4:30 &ndash; 6:30 p.m.</td>
+                    <td>Registration for Free Kids Races</td>
                     <tr>
-                        <td>3:00 - 11:00 p.m.</td>
+                        <td>6:45 p.m.</td>
+                        <td>Four Free Kids Races (Ages 3 &amp; under / Ages 4-6 / Ages 7-8 / Ages 9-11)</td>
+                    </tr>
+                    <!--                    <tr>
+                        <td >3:00 - 11:00 p.m.</td>
                         <td>High Speed Pro Bike Racing on Main Street</td>
                     </tr>
                     <tr>
-                        <td>3:00 - 11:00 p.m.</td>
-                        <td>Open Containers Perimeter on Main Street</td>
-                    </tr>
-                    <tr>
-                        <td>3:00 – 11:00 p.m.</td>
-                        <td>Free Live Music in front of the Courthouse on Main Street<br><ol>
-			<li>Exit 12 (Edwardsville’s Own (3:00 pm – 5:30 pm)</li>
-                        <li>Howl at the Moon Dueling Pianos (5:30 pm – 8:00 pm)</li>
-			<li>Jake Gehret & the Brokedown Sound (8:00 pm – 10:30 pm)</li></ol>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3:00 - 8:00 p.m.</td>
-                        <td>First Clover Leaf Bank / Edw. Arts Center Pedal & Paint Art Tent</td>
+                        <td>5:00 – 10:00 p.m.</td>
+                        <td>Free Live Music in front of the Courthouse on Main Street</td>
                     </tr>
                     <tr>
                         <td>4:30 – 6:30 p.m.</td>
-			<td>Registration for Free Kids Races</td>
+                        <td>Registration for Free Kids Races</td>
+                    </tr>
                     <tr>
                         <td>6:45 p.m.</td>
-                        <td>Four Free Kids Races (Ages 3 & under / Ages 4-6 / Ages 7-8 / Ages 9-11)</td>
-                    </tr>
-<!-- 					<tr>
-						<td >3:00 - 11:00 p.m.</td>
-						<td>High Speed Pro Bike Racing on Main Street</td>
-					</tr>
-					<tr>
-						<td>5:00 – 10:00 p.m.</td>
-						<td>Free Live Music in front of the Courthouse on Main Street</td>
-					</tr>
-					<tr>
-						<td>4:30 – 6:30 p.m.</td>
-						<td>Registration for Free Kids Races</td>
-					</tr>
-					<tr>
-						<td>6:45 p.m.</td>
-						<td>Four Free Kids Races (Ages 3 &amp;amp; under / Ages 4-6 / Ages 7-8 / Ages 9-10)</td>
-					</tr> -->
-				</table>
-			</div>
-	<!-- REGISTER /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-			<div class="row">
-				<div class="col-lg-12">
-                    <div class="leaf icon-background">
-                    	<a name="register"></a>
-                        <div class='sprite register-section'></div>
-                        <p id="register-text" class="section-icon-text">REGISTER</p>
-                    </div>
-				</div>
-			</div>
-			<div class="row panel">
-				<h4><strong>Registration</strong></h4>
-				<p>No late fees. Race-day registration opens at 2:00 p.m. and closes 30 minutes before each race. Registration for the 2015 race is NOW OPEN. Register online at: <a href="https://www.bikereg.com/edwardsville-rotary-criterium">https://www.bikereg.com/edwardsville-rotary-criterium</a>. Held under USA Cycling permit 2015-2563.</p>
-			</div>
-	<!-- SPONSORS /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-			<div class="row">
-				<div class="col-lg-12">
-                    <div class="leaf icon-background">
-                    	<a name="sponsors"></a>
-                        <div class='sprite sponsors-section'></div>
-                        <p id="sponsors-text" class="section-icon-text">SPONSORS</p>
-                    </div>
-				</div>
-			</div>
-			<div class="row panel">
-                <h4><strong>Sponsors</strong></h4>
-                <p>The TheBANK of Edwardsville Rotary Criterium would not be possible without the generous support of our sponsors. The Edwardsville Rotary Club would like to recognize the following businesses and organizations for their support of this event.</p>
-                <table class="table sponsors-table">
-                    <tr>
-                        <td ><u>Title Sponsor:</u></td>
-                        <td>TheBANK of Edwardsville</td>
-<td></td><td></td>
-                    </tr>
-                    <tr>
-                        <td><u>Presenting Sponsor:</u></td>
-                        <td>City of Edwardsville</td><td></td><td></td>
-                    </tr>
-                    <tr>
-                        <td><u>Presenting Sponsor:</u></td>
-                        <td>Edwardsville Township</td><td></td><td></td>
-                    </tr>
-                    <tr>
-                        <td><u>Cat 1/2 Race Sponsor:</u></td>
-                        <td>Anderson Hospital</td><td></td><td></td>
-                    </tr>
-                    <tr>
-                        <td><u>Cat 3 Sponsor:</u></td>
-                       
-                  <td>Metro East Park & Recreation District</td><td></td><td></td></tr>     
-              </tr>
-                    <tr>
-                        <td><u>Children’s Art Tent Sponsor:</u></td>
-                        <td>First Clover Leaf Bank</td><td></td><td></td></tr>
-                       <td><u>Women 3/4 Sponsor:</u></td>
-                        <td>Sherer Law Offices</td><td></td><td></td></tr>
-                    <tr>
-                        <td><u>Cat 4 Sponsor:</u></td>
-        <td>Scott Credit Union</td><td></td><td></td>
+                        <td>Four Free Kids Races (Ages 3 &amp;amp; under / Ages 4-6 / Ages 7-8 / Ages 9-10)</td>
+                    </tr> -->
+            </table>
+        </div>
+        <!-- REGISTER -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="leaf icon-background">
+                    <a name="register"></a>
+                    <div class='sprite register-section'></div>
+                    <p id="register-text" class="section-icon-text">REGISTER</p>
+                </div>
+            </div>
+        </div>
+        <div class="row panel">
+            <h4><strong>Registration</strong></h4>
+            <p>No late fees. Race-day registration opens at 2:00 p.m. and closes 30 minutes before each race. Registration for the 2015 race is NOW OPEN. Register online at: <a href="https://www.bikereg.com/edwardsville-rotary-criterium">https://www.bikereg.com/edwardsville-rotary-criterium</a>. Held under USA Cycling permit 2015-2563.</p>
+        </div>
+        <!-- SPONSORS -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="leaf icon-background">
+                    <a name="sponsors"></a>
+                    <div class='sprite sponsors-section'></div>
+                    <p id="sponsors-text" class="section-icon-text">SPONSORS</p>
+                </div>
+            </div>
+        </div>
+        <div class="row panel">
+            <h4><strong>Sponsors</strong></h4>
+            <p>The TheBANK of Edwardsville Rotary Criterium would not be possible without the generous support of our sponsors. The Edwardsville Rotary Club would like to recognize the following businesses and organizations for their support of this event.</p>
+            <table class="table sponsors-table">
+                <tr>
+                    <td><u>Title Sponsor:</u></td>
+                    <td>TheBANK of Edwardsville</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Presenting Sponsor:</u></td>
+                    <td>City of Edwardsville</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Presenting Sponsor:</u></td>
+                    <td>Edwardsville Township</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Cat 1/2 Race Sponsor:</u></td>
+                    <td>Anderson Hospital</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Cat 3 Sponsor:</u></td>
+                    <td>Metro East Park &amp; Recreation District</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><u>Children&rsquo;s Art Tent Sponsor:</u></td>
+                    <td>First Clover Leaf Bank</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <td><u>Women 3/4 Sponsor:</u></td>
+                <td>Sherer Law Offices</td>
+                <td></td>
+                <td></td>
+                </tr>
+                <tr>
+                    <td><u>Cat 4 Sponsor:</u></td>
+                    <td>Scott Credit Union</td>
+                    <td></td>
+                    <td></td>
                     <tr>
                         <td><u>Cat 5 Sponsor:</u></td>
-                        <td>Homefield Energy</td></tr><td></td><td></td>
+                        <td>Homefield Energy</td>
+                    </tr>
+                    <td></td>
+                    <td></td>
                     <tr>
                         <td><u>Concert Stage Sponsors:</u></td>
-                        <td>Mathis, Marifian & Richter</td>
-                  <td>Madison Mutual</td>
-		<td>Donnewald Distributing</td>
-   </tr><tr><td></td><td>Bank of Springfield, Glen Carbon Banking Center</td></tr>
-                        <td><u>Registration Table Sponsor:</u></td>
-                        <td>TorHoerman</td><td></td><td></td></tr>
+                        <td>Mathis, Marifian &amp; Richter</td>
+                        <td>Madison Mutual</td>
+                        <td>Donnewald Distributing</td>
+                    </tr>
                     <tr>
-                        <td><u>Volunteer Check-In Sponsor:</u></td>
-                        <td>State Farm – Steve Ellsworth</td><td></td><td></td></tr>
-                    <tr>
-                        <td><u>Payouts Table Sponsor:</u></td>
-                        <td>Cassens</td><td></td><td></td></tr>
-                    <tr>
-                        <td><u>Officials Table Sponsor:</u></td>
-                        <td>Patton Dental</td><td></td><td></td></tr>
-                    <tr>
-                        <td><u>Juniors Sponsor:</u></td>
-                        <td>Hortica</td><td></td><td></td></tr>
-                    <tr>
-                        <td><u>Masters 40+ 50+  Sponsor:</u></td>
-                        <td>Simmons Hanly Conroy</td><td></td><td></td></tr>
-                    <tr>
-                        <td><u>Women's Open Sponsor:</u></td>
-                        <td>MidAmerica Institute of Plastics and Cosmetic Surgery and Center for Advanced Orthopedics</td><td></td><td></td></tr>
-                    <tr>
-                        <td><u>Wheel Pit Sponsor:</u></td>
-                        <td>Edwardsville Cyclery</td><td></td><td></td></tr>
-		<tr>
-			<td><u>Bale Sponsors:</u></td>
-			<td>Taplin Defense</td>
-			<td>Big Daddy's</td>
-			<td>Clarence Brown</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>SSM</td>
-			<td>Cassens Car Dealership</td>
-			<td>Richards Brick</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>CJ Schlosser & Company</td>
-			<td>The Finishing Touch</td>
-			<td>Sunset Hill Funeral Home</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>Ferguson Construction</td>
-			<td>Lois Ladd</td>
-			<td>JF Electric</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>Edwardsville Intelligencer</td>
-			<td>Allied Waste</td><td></td>	
-		</tr>
-		<tr>
-			<td><u>Map Sponsorship</u></td>
-			<td>John Gibbons</td>
-			<td>Kane Consulting</td>
-			<td>Dale Claussen</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>Coldwell Banker Brown Realtors</td>
-			<td>Tony Malench</td>
-			<td>Mortgage Makers</td>
-		</tr>
-
-
-
-<!--                     <tr>
+                        <td></td>
+                        <td>Bank of Springfield, Glen Carbon Banking Center</td>
+                    </tr>
+                    <td><u>Registration Table Sponsor:</u></td>
+                    <td>TorHoerman</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Volunteer Check-In Sponsor:</u></td>
+                    <td>State Farm &ndash; Steve Ellsworth</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Payouts Table Sponsor:</u></td>
+                    <td>Cassens</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Officials Table Sponsor:</u></td>
+                    <td>Patton Dental</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Juniors Sponsor:</u></td>
+                    <td>Hortica</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Masters 40+ 50+  Sponsor:</u></td>
+                    <td>Simmons Hanly Conroy</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Women's Open Sponsor:</u></td>
+                    <td>MidAmerica Institute of Plastics and Cosmetic Surgery and Center for Advanced Orthopedics</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Wheel Pit Sponsor:</u></td>
+                    <td>Edwardsville Cyclery</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Bale Sponsors:</u></td>
+                    <td>Taplin Defense</td>
+                    <td>Big Daddy's</td>
+                    <td>Clarence Brown</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>SSM</td>
+                    <td>Cassens Car Dealership</td>
+                    <td>Richards Brick</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>CJ Schlosser &amp; Company</td>
+                    <td>The Finishing Touch</td>
+                    <td>Sunset Hill Funeral Home</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Ferguson Construction</td>
+                    <td>Lois Ladd</td>
+                    <td>JF Electric</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Edwardsville Intelligencer</td>
+                    <td>Allied Waste</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><u>Map Sponsorship</u></td>
+                    <td>John Gibbons</td>
+                    <td>Kane Consulting</td>
+                    <td>Dale Claussen</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Coldwell Banker Brown Realtors</td>
+                    <td>Tony Malench</td>
+                    <td>Mortgage Makers</td>
+                </tr>
+                <!--                     <tr>
                         <td><u>Men 4 Sponsor:</u></td>
                         <td>Metro East Park &amp; Recreation District</td>
                     </tr>
@@ -408,11 +477,12 @@
                         <td>Hortica</td>
                     </tr>
                     <tr> -->
-                        <td><u>Kids Race Sponsor:</u></td>
-                        <td>Edwardsville Wrestling Club</td>
-                        <td>Fellowship of Christian Athletes</td><td></td>
-                    </tr>
-<!--                     <tr>
+                <td><u>Kids Race Sponsor:</u></td>
+                <td>Edwardsville Wrestling Club</td>
+                <td>Fellowship of Christian Athletes</td>
+                <td></td>
+                </tr>
+                <!--                     <tr>
                         <td><u>Juniors / Women 4 Sponsor:</u></td>
                         <td>Metro Tri-Club</td>
                     </tr>
@@ -453,12 +523,12 @@
                         <td>Frames by 3</td>
                         <td>Dr. Anthony Malench</td>
                         <td>Dr. Dale Claussen</td>
-                        <td>Jerry’s Tires</td>
+                        <td>Jerry&rsquo;s Tires</td>
                     </tr> -->
-                </table>
-                <br>
-                <p>If you'd like to sponsor at any level, please contact Brian Mulhall at brian@brianmulhall.com or at 618-920-5323.</p>
-                <!-- <br>
+            </table>
+            <br>
+            <p>If you'd like to sponsor at any level, please contact Brian Mulhall at brian@brianmulhall.com or at 618-920-5323.</p>
+            <!-- <br>
                 <div class="col-md-3">
                     <ul>
                         <li>Men 5 Race Sponsor</li>
@@ -470,16 +540,16 @@
                         <li>Multiple Bale Sponsorships are available as well.</li>
                     </ul>
                 </div> -->
-			</div>
-			<!-- END MAIN CONTENT -->
-			</div>
-		<!-- jQuery -->
-     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        </div>
+        <!-- END MAIN CONTENT -->
+    </div>
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- OTHER SCRIPTS-->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="js/jquery.mb.YTPlayer.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/smoothscroll.js"></script>
-	</body>
-</html>
+</body>
 
+</html>
